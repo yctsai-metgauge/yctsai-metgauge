@@ -7,8 +7,8 @@
     top: 320px;
 }
 .ball {
-    width: 50px;
-    height: 50px;
+    width: 10px;
+    height: 10px;
     background: green;
     /* border: 3px solid #000; */
     border-radius: 50%;
