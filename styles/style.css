@@ -1,3 +1,6 @@
+body {
+    background-color: rgb(0, 0, 0);
+  }
 #ball_1 {
     position: relative;
     top: 160px;
@@ -7,14 +10,14 @@
     top: 320px;
 }
 .ball {
-    width: 10px;
-    height: 10px;
-    background: green;
+    width: 20px;
+    height: 20px;
+    background: rgb(255, 255, 255);
     /* border: 3px solid #000; */
     border-radius: 50%;
     position: absolute;
-    animation: movement 1s linear infinite;
-    -webkit-animation: movement 1s linear infinite;
+    animation: movement 2s linear infinite;
+    -webkit-animation: movement 2s linear infinite;
     left: 0;
 }
 
